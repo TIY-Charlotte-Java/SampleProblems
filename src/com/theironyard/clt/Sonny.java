@@ -11,7 +11,7 @@ public class Sonny extends Robot {
     // Setup Sonny to implement an additional fourth law:
     // "A robot may not harm humanity, or, by inaction, allow humanity to come to harm."
 
-    public static 
+     public ArrayList<String> newLaws = Robot.getLaws();
 
     // override the base "getLaws" method to print this fourth law.
 
