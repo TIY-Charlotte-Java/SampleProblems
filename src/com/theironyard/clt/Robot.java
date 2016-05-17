@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 // DO NOT MODIFY THIS CLASS
 abstract class Robot {
-    private static ArrayList<String> laws = new ArrayList<>();
+    private ArrayList<String> laws = new ArrayList<>();
 
     Robot() {
         laws.add("A robot may not injure a human being or, through inaction, allow a human being to come to harm.");
@@ -13,7 +13,7 @@ abstract class Robot {
     }
 
 
-    protected static ArrayList<String> getLaws() {
+    protected ArrayList<String> getLaws() {
         return laws;
     }
 }
