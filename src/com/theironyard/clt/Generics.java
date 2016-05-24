@@ -7,5 +7,5 @@ public class Generics<K> {
     Generics(K input) {
         data = input;
     }
-    
+
 }

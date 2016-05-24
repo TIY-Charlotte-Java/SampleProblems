@@ -14,7 +14,7 @@ public class Reverse {
         for (int i = 0; i < work.length; i++) {
             list.add(work[work.length - (i + 1)]);
         }
-        results = list.toString();
+        results = list.toString().replaceAll("[^\\w]", "");
 
         return results;
     }
