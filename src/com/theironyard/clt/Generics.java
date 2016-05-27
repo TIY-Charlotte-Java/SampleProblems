@@ -1,22 +1,11 @@
 package com.theironyard.clt;
 
 // Modify the following code to use Generics
-public class Generics {
-    Object data;
+public class Generics<K> {
+    private K data;
 
-    Generics(String input) {
+    Generics(K input) {
         data = input;
     }
 
-    Generics(Double input) {
-        data = input;
-    }
-
-    Generics(Long input) {
-        data = input;
-    }
-
-    Generics(Integer input) {
-        data = input;
-    }
 }
