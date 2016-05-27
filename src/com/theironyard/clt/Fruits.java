@@ -23,7 +23,7 @@ public class Fruits {
             fruits.add(scanner.next());
         }
 
-        return fruits.stream().distinct().filter(t -> t.trim().indexOf("[^\\w]") == -1).collect(Collectors.joining(","));
+        return fruits.stream().distinct().filter(t -> !t.trim().contains("[^\\w]")).collect(Collectors.joining(","));
 
     }
     // 2. Get all single-word fruits, sort them by length
