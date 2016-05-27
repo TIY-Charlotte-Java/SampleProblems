@@ -1,5 +1,7 @@
 package com.theironyard.clt;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
@@ -8,8 +10,9 @@ import java.util.Scanner;
 public class Fruits {
 
     // 1. Read "fruits.csv" from file
-    public void filereading() {
-        Scanner scanner = new Scanner("fruits.csv");
+    public void filereading() throws FileNotFoundException{
+        File f = new File("fruits.cvs");
+        Scanner scanner = new Scanner(f);
         while (scanner.hasNext()) {
 
         }
