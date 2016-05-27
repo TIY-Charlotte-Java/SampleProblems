@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 /**
  * Created by Ben on 5/16/16.
@@ -22,7 +23,7 @@ public class Fruits {
             fruits.add(scanner.next());
         }
 
-        return fruits.stream().distinct().filter(Predicate.isEqual("[^\\w]")).toString();
+        return fruits.stream().distinct().filter(t -> t.trim().indexOf("[^\\w]") == -1).collect(Collectors.joining(","));
 
     }
     // 2. Get all single-word fruits, sort them by length
