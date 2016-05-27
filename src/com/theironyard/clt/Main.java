@@ -9,6 +9,6 @@ public class Main {
 
         System.out.println(Reverse.stringReverse("bar"));
 
-        System.out.println(Fruits.filereading());
+        System.out.println(Fruits.fileReading());
     }
 }

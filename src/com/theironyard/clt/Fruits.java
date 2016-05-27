@@ -12,15 +12,15 @@ import java.util.function.Predicate;
 public class Fruits {
 
     // 1. Read "fruits.csv" from file
-    public static Object[] filereading() throws FileNotFoundException{
+    public static String fileReading() throws FileNotFoundException{
         ArrayList<String> fruits = new ArrayList<>();
-        File f = new File("fruits.cvs");
+        File f = new File("fruits");
         Scanner scanner = new Scanner(f);
         while (scanner.hasNext()) {
             fruits.add(scanner.next());
         }
 
-        return fruits.stream().distinct().filter(Predicate.isEqual("[^\\w]")).toArray();
+        return fruits.stream().distinct().filter(Predicate.isEqual("[^\\w]")).toArray().toString();
 
     }
     // 2. Get all single-word fruits, sort them by length

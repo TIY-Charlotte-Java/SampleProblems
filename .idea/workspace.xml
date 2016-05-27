@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6adeb299-26c6-4102-b111-d5bf4d27eebe" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fruits.csv" afterPath="$PROJECT_DIR$/src/com/theironyard/clt/fruits.csv" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/18-SampleAssignments/com/theironyard/clt/fruits.csv" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/theironyard/clt/fruits.csv" afterPath="$PROJECT_DIR$/fruits.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/18-SampleAssignments/com/theironyard/clt/Fruits.class" afterPath="$PROJECT_DIR$/out/production/18-SampleAssignments/com/theironyard/clt/Fruits.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/18-SampleAssignments/com/theironyard/clt/Main.class" afterPath="$PROJECT_DIR$/out/production/18-SampleAssignments/com/theironyard/clt/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -55,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fruits.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Fruits.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/theironyard/clt/Fruits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="116">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +89,7 @@
         </entry>
       </file>
       <file leaf-file-name="fruits.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/theironyard/clt/fruits.csv">
+        <entry file="file://$PROJECT_DIR$/fruits.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
               <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
@@ -97,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/theironyard/clt/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -156,8 +157,8 @@
         <option value="$PROJECT_DIR$/src/com/theironyard/clt/Sonny.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/clt/Generics.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/clt/Reverse.java" />
-        <option value="$PROJECT_DIR$/src/com/theironyard/clt/Fruits.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/clt/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/theironyard/clt/Fruits.java" />
       </list>
     </option>
   </component>
@@ -239,6 +240,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/com/theironyard/clt" />
     </key>
   </component>
@@ -499,7 +502,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -647,7 +650,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theironyard/clt/fruits.csv">
+    <entry file="file://$PROJECT_DIR$/fruits.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
@@ -695,7 +698,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theironyard/clt/fruits.csv">
+    <entry file="file://$PROJECT_DIR$/fruits.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
@@ -735,7 +738,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theironyard/clt/fruits.csv">
+    <entry file="file://$PROJECT_DIR$/fruits.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
@@ -775,7 +778,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theironyard/clt/fruits.csv">
+    <entry file="file://$PROJECT_DIR$/fruits.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
@@ -962,7 +965,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theironyard/clt/fruits.csv">
+    <entry file="file://$PROJECT_DIR$/fruits.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
@@ -986,21 +989,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theironyard/clt/Fruits.java">
+    <entry file="file://$PROJECT_DIR$/src/com/theironyard/clt/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theironyard/clt/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/theironyard/clt/Fruits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="116">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
